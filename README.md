@@ -54,7 +54,7 @@ limitations under the License.
 To use in Observable,
 
 ```javascript
-isSortedAscending = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-assert-is-sorted-ascending@umd/browser.js' )
+isSortedAscending = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-assert-is-sorted-ascending@v0.1.0-umd/browser.js' )
 ```
 
 To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
@@ -66,7 +66,7 @@ var isSortedAscending = require( 'path/to/vendor/umd/array-base-assert-is-sorted
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-base-assert-is-sorted-ascending@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-base-assert-is-sorted-ascending@v0.1.0-umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -123,7 +123,7 @@ var out = isSortedAscending( [] );
 <html lang="en">
 <body>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-base-accessor@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-base-assert-is-sorted-ascending@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-base-assert-is-sorted-ascending@v0.1.0-umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
