@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import isSortedAscending from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-assert-is-sorted-ascending@deno/mod.js';
+import isSortedAscending from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-assert-is-sorted-ascending@v0.1.0-deno/mod.js';
 ```
 
 #### isSortedAscending( x )
@@ -96,7 +96,7 @@ var out = isSortedAscending( [] );
 
 ```javascript
 import AccessorArray from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-accessor@deno/mod.js';
-import isSortedAscending from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-assert-is-sorted-ascending@deno/mod.js';
+import isSortedAscending from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-assert-is-sorted-ascending@v0.1.0-deno/mod.js';
 
 var x = new AccessorArray( [ 1, 2, 3, 4 ] );
 var bool = isSortedAscending( x );
