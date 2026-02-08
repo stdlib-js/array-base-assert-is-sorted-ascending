@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/array-base-assert-is-sorted-ascending",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Test if an array is sorted in ascending order.",
   "license": "Apache-2.0",
   "author": {
@@ -38,21 +38,21 @@
   },
   "dependencies": {
     "@stdlib/array-base-accessor-getter": "^0.2.2",
-    "@stdlib/array-base-assert-is-accessor-array": "^0.2.2",
-    "@stdlib/array-base-getter": "^0.2.2",
+    "@stdlib/array-base-assert-is-accessor-array": "^0.2.3",
+    "@stdlib/array-base-getter": "^0.2.3",
     "@stdlib/array-dtype": "^0.3.0",
     "@stdlib/types": "^0.4.3"
   },
   "devDependencies": {
     "@stdlib/array-base-accessor": "^0.2.2",
     "@stdlib/array-base-zero-to": "^0.2.1",
-    "@stdlib/assert-is-boolean": "^0.2.2",
-    "@stdlib/math-base-special-pow": "^0.3.0",
-    "@stdlib/string-format": "^0.2.2",
+    "@stdlib/assert-is-boolean": "^0.2.3",
+    "@stdlib/math-base-special-pow": "^0.3.1",
+    "@stdlib/string-format": "^0.2.3",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
     "tap-min": "git+https://github.com/Planeshifter/tap-min.git",
-    "@stdlib/bench-harness": "^0.2.2"
+    "@stdlib/bench-harness": "^0.2.3"
   },
   "engines": {
     "node": ">=0.10.0",
