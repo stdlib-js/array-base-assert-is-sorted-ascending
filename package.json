@@ -37,15 +37,15 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/array-base-accessor-getter": "^0.2.2",
+    "@stdlib/array-base-accessor-getter": "^0.2.3",
     "@stdlib/array-base-assert-is-accessor-array": "^0.2.3",
     "@stdlib/array-base-getter": "^0.2.3",
-    "@stdlib/array-dtype": "^0.3.0",
+    "@stdlib/array-dtype": "^0.3.1",
     "@stdlib/types": "^0.4.3"
   },
   "devDependencies": {
-    "@stdlib/array-base-accessor": "^0.2.2",
-    "@stdlib/array-base-zero-to": "^0.2.1",
+    "@stdlib/array-base-accessor": "^0.2.3",
+    "@stdlib/array-base-zero-to": "^0.2.2",
     "@stdlib/assert-is-boolean": "^0.2.3",
     "@stdlib/math-base-special-pow": "^0.3.1",
     "@stdlib/string-format": "^0.2.3",
