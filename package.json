@@ -77,10 +77,12 @@
     "structure",
     "array",
     "generic",
+    "test",
     "sorted",
     "ascending",
     "ordered",
-    "assert"
+    "assert",
+    "validate"
   ],
   "funding": {
     "type": "opencollective",
