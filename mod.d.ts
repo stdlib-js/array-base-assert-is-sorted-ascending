@@ -1,4 +1,4 @@
-/**
+/*
 * @license Apache-2.0
 *
 * Copyright (c) 2025 The Stdlib Authors.
@@ -16,23 +16,17 @@
 * limitations under the License.
 */
 
-'use strict';
+// TypeScript Version: 4.1
 
-// MODULES //
+/// <reference types="https://cdn.jsdelivr.net/gh/stdlib-js/types@main/index.d.ts"/>
 
-var isAccessorArray = require( '@stdlib/array-base-assert-is-accessor-array' );
-var accessorGetter = require( '@stdlib/array-base-accessor-getter' );
-var getter = require( '@stdlib/array-base-getter' );
-var dtype = require( '@stdlib/array-dtype' );
-
-
-// MAIN //
+import { Collection, AccessorArrayLike } from '@stdlib/types/array';
 
 /**
 * Tests if an array is sorted in ascending order.
 *
-* @param {Collection} x - input array
-* @returns {boolean} boolean indicating if an array is sorted in ascending order
+* @param x - input array
+* @returns boolean indicating if an array is sorted in ascending order
 *
 * @example
 * var out = isSortedAscending( [ 1, 2, 3 ] );
@@ -58,43 +52,9 @@ var dtype = require( '@stdlib/array-dtype' );
 * var out = isSortedAscending( [ 1, 3, 2 ] );
 * // returns false
 */
-function isSortedAscending( x ) {
-	var len;
-	var get;
-	var dt;
-	var v1;
-	var v2;
-	var i;
-
-	// Resolve the input array data type:
-	dt = dtype( x );
-
-	// Resolve an accessor for retrieving input array elements:
-	if ( isAccessorArray( x ) ) {
-		get = accessorGetter( dt );
-	} else {
-		get = getter( dt );
-	}
-	// Get the number of elements over which to iterate:
-	len = x.length;
-
-	// Check for an empty array:
-	if ( len === 0 ) {
-		return false;
-	}
-	// Loop over the elements...
-	v1 = get( x, 0 );
-	for ( i = 1; i < len; i++ ) {
-		v2 = get( x, i );
-		if ( v1 > v2 ) {
-			return false;
-		}
-		v1 = v2;
-	}
-	return true;
-}
+declare function isSortedAscending( x: Collection | AccessorArrayLike<any> ): boolean;
 
 
 // EXPORTS //
 
-module.exports = isSortedAscending;
+export = isSortedAscending;
